@@ -11,14 +11,14 @@ export default function Portfolio() {
       title: "BMI Prediction",
       description:
         "Designed a Dual-pipelined Modified ResNet50 CNN Model for predicting BMI of a person using only their mugshots of frontal and side facial images.",
-      imageUrl: "/placeholder.svg?height=200&width=400",
+      imageUrl: "https://images2.imgbox.com/d0/92/OHmVKkE5_o.png?height=200&width=400",
       tags: ["Python", "Deep Learning", "CNN", "ResNet"],
       link: "https://github.com/bhuvansun/bmi-prediction-facial-images",
     },
     {
       title: "Skew Correction",
       description: "Built a RotNet CNN model using TensorFlow to correct images that are slanted, or skewed.",
-      imageUrl: "/placeholder.svg?height=200&width=400",
+      imageUrl: "https://images2.imgbox.com/73/4c/0TWTyN6D_o.png?height=200&width=400",
       tags: ["Python", "RotNet", "Deep Learning", "CNN", "Tensorflow"],
       link: "https://github.com/bhuvansun/skew-correction-enhancement-doc-images",
     },
@@ -26,7 +26,7 @@ export default function Portfolio() {
       title: "Epilepsy Prediction",
       description:
         "Developed a DL model using CNNs for predicting epileptic seizures 10 minutes prior by utilizing EEG recordings.",
-      imageUrl: "/placeholder.svg?height=200&width=400",
+      imageUrl: "https://images2.imgbox.com/4d/5a/j8CaMVy0_o.jpg?height=200&width=400",
       tags: ["CNN", "ResNet", "Wavelet Transform", "SCA", "BSS", "EMD"],
       link: "https://github.com/bhuvansun/chb-mit-epilepsy-prediction-eeg",
     },
@@ -34,7 +34,7 @@ export default function Portfolio() {
       title: "Path Finding Agent",
       description:
         "Simulated an AI agent picking up an item and delivering it to the goal destination in the shortest and cost-efficient path by implementing A*, IDS, and BFS algorithms in Python, and utilizing Pygame library for visualization.",
-      imageUrl: "/placeholder.svg?height=200&width=400",
+      imageUrl: "https://images2.imgbox.com/11/f5/ANcMO0Tu_o.jpg?height=200&width=400",
       tags: ["Pygame", "A*", "IDS", "BFS", "Python"],
       link: "https://github.com/bhuvansun/food-serving-robot-a-",
     },
@@ -42,7 +42,7 @@ export default function Portfolio() {
       title: "Automated Inventory Log",
       description:
         "Automating Inventory Management by implementing multiple ESP32CAM Modules for capturing images, and processing them using CV to identify, quantify and localize items in a database file.",
-      imageUrl: "/placeholder.svg?height=200&width=400",
+      imageUrl: "https://images2.imgbox.com/30/de/ebi5WeWN_o.jpg?height=200&width=400",
       tags: ["Yolo", "esp32cam", "Arduino", "CV"],
       link: "https://github.com/bhuvansun/esp32cam-object-detection-yolo",
     },
@@ -51,7 +51,7 @@ export default function Portfolio() {
       title: "Primal Dual Optimization",
       description:
         "MATLAB implementation of Chambolle and Pock’s Primal Dual Algorithm in conjunction with Tikhonov Regularization and a Gaussian Kernel for function generation",
-      imageUrl: "/placeholder.svg?height=200&width=400",
+      imageUrl: "https://images2.imgbox.com/28/e4/oAMgB8MB_o.png?height=200&width=400",
       tags: ["MATLAB", "Optimization"],
       link: "https://github.com/bhuvansun/primal-dual-optimization",
     },
@@ -60,7 +60,7 @@ export default function Portfolio() {
       title: "Placements Analysis and Predictions",
       description:
         "Performed Data Analysis and applied ML models to analyze and predict placements statistics for my institution.",
-      imageUrl: "/placeholder.svg?height=200&width=400",
+      imageUrl: "https://images2.imgbox.com/30/fb/Wn2eUo5N_o.png?height=200&width=400",
       tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Random Forest Regression"],
       link: "https://github.com/bhuvansun/iiitdmk-placements",
     },
@@ -68,7 +68,7 @@ export default function Portfolio() {
     {
       title: "Restaurant Website",
       description: "Developed a functional and interactive Restaurant Website.",
-      imageUrl: "/placeholder.svg?height=200&width=400",
+      imageUrl: "https://images2.imgbox.com/f0/39/XZryh18w_o.png?height=200&width=400",
       tags: ["Azure Static App", "Azure Blob Storage", "HTML", "CSS", "JS"],
       link: "https://github.com/bhuvansun/future-ready-talent",
     },
@@ -76,7 +76,7 @@ export default function Portfolio() {
     {
       title: "Encrypted Serial Communication",
       description: "An Arduino library to enable encrypted communications over serial ports.",
-      imageUrl: "/placeholder.svg?height=200&width=400",
+      imageUrl: "https://images2.imgbox.com/ca/30/YXLqiAPE_o.jpg?height=200&width=400",
       tags: ["Arduino", "C++", "encryption", "ecc256"],
       link: "https://github.com/bhuvansun/encrypted-serial-communication",
     },
