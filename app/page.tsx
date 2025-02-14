@@ -1,7 +1,6 @@
 import Image from "next/image"
 import { Github, Linkedin, Mail } from "lucide-react"
 import { ProjectCard } from "./components/ProjectCard"
-import { SkillBadge } from "./components/SkillBadge"
 import { DarkModeToggle } from "./components/DarkModeToggle"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -9,32 +8,77 @@ import { Badge } from "@/components/ui/badge"
 export default function Portfolio() {
   const projects = [
     {
-      title: "Automated Attendance System",
-      description: "Developed a face recognition-based attendance system using Python and OpenCV",
+      title: "BMI Prediction",
+      description:
+        "Designed a Dual-pipelined Modified ResNet50 CNN Model for predicting BMI of a person using only their mugshots of frontal and side facial images.",
       imageUrl: "/placeholder.svg?height=200&width=400",
-      tags: ["Python", "OpenCV", "Face Recognition"],
-      link: "#",
+      tags: ["Python", "Deep Learning", "CNN", "ResNet"],
+      link: "https://github.com/bhuvansun/bmi-prediction-facial-images",
     },
     {
-      title: "E-commerce Website",
-      description: "Created a full-stack e-commerce platform with React and Node.js",
+      title: "Skew Correction",
+      description: "Built a RotNet CNN model using TensorFlow to correct images that are slanted, or skewed.",
       imageUrl: "/placeholder.svg?height=200&width=400",
-      tags: ["React", "Node.js", "MongoDB"],
-      link: "#",
+      tags: ["Python", "RotNet", "Deep Learning", "CNN", "Tensorflow"],
+      link: "https://github.com/bhuvansun/skew-correction-enhancement-doc-images",
     },
     {
-      title: "Machine Learning Projects",
-      description: "Implemented various ML algorithms for classification and regression tasks",
+      title: "Epilepsy Prediction",
+      description:
+        "Developed a DL model using CNNs for predicting epileptic seizures 10 minutes prior by utilizing EEG recordings.",
       imageUrl: "/placeholder.svg?height=200&width=400",
-      tags: ["Python", "Scikit-learn", "TensorFlow"],
-      link: "#",
+      tags: ["CNN", "ResNet", "Wavelet Transform", "SCA", "BSS", "EMD"],
+      link: "https://github.com/bhuvansun/chb-mit-epilepsy-prediction-eeg",
     },
     {
-      title: "Portfolio Website",
-      description: "Designed and developed a personal portfolio website using Next.js and Tailwind CSS",
+      title: "Path Finding Agent",
+      description:
+        "Simulated an AI agent picking up an item and delivering it to the goal destination in the shortest and cost-efficient path by implementing A*, IDS, and BFS algorithms in Python, and utilizing Pygame library for visualization.",
       imageUrl: "/placeholder.svg?height=200&width=400",
-      tags: ["Next.js", "Tailwind CSS", "React"],
-      link: "#",
+      tags: ["Pygame", "A*", "IDS", "BFS", "Python"],
+      link: "https://github.com/bhuvansun/food-serving-robot-a-",
+    },
+    {
+      title: "Automated Inventory Log",
+      description:
+        "Automating Inventory Management by implementing multiple ESP32CAM Modules for capturing images, and processing them using CV to identify, quantify and localize items in a database file.",
+      imageUrl: "/placeholder.svg?height=200&width=400",
+      tags: ["Yolo", "esp32cam", "Arduino", "CV"],
+      link: "https://github.com/bhuvansun/esp32cam-object-detection-yolo",
+    },
+
+    {
+      title: "Primal Dual Optimization",
+      description:
+        "MATLAB implementation of Chambolle and Pock’s Primal Dual Algorithm in conjunction with Tikhonov Regularization and a Gaussian Kernel for function generation",
+      imageUrl: "/placeholder.svg?height=200&width=400",
+      tags: ["MATLAB", "Optimization"],
+      link: "https://github.com/bhuvansun/primal-dual-optimization",
+    },
+
+    {
+      title: "Placements Analysis and Predictions",
+      description:
+        "Performed Data Analysis and applied ML models to analyze and predict placements statistics for my institution.",
+      imageUrl: "/placeholder.svg?height=200&width=400",
+      tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Random Forest Regression"],
+      link: "https://github.com/bhuvansun/iiitdmk-placements",
+    },
+
+    {
+      title: "Restaurant Website",
+      description: "Developed a functional and interactive Restaurant Website.",
+      imageUrl: "/placeholder.svg?height=200&width=400",
+      tags: ["Azure Static App", "Azure Blob Storage", "HTML", "CSS", "JS"],
+      link: "https://github.com/bhuvansun/future-ready-talent",
+    },
+
+    {
+      title: "Encrypted Serial Communication",
+      description: "An Arduino library to enable encrypted communications over serial ports.",
+      imageUrl: "/placeholder.svg?height=200&width=400",
+      tags: ["Arduino", "C++", "encryption", "ecc256"],
+      link: "https://github.com/bhuvansun/encrypted-serial-communication",
     },
   ]
 
@@ -42,14 +86,28 @@ export default function Portfolio() {
     "Python",
     "Java",
     "C++",
+    "C",
+    "C#",
+    "MATLAB",
+    "HTML",
+    "CSS",
     "JavaScript",
+    "TypeScript",
     "React",
     "Node.js",
     "Express.js",
+    ".NET",
     "MongoDB",
-    "MySQL",
+    "SQL",
     "Git",
+    "Bash",
+    "Powershell",
+    "Linux",
+    "Azure",
+    "AWS",
+    "Data Science",
     "Machine Learning",
+    "Deep Learning",
     "Data Structures",
     "Algorithms",
   ]
@@ -98,15 +156,28 @@ export default function Portfolio() {
           <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
             Thribhuvan Sunkavalli
           </h2>
-          <p className="text-2xl text-gray-600 dark:text-gray-400 mb-6">Data Analyst | Machine Learning Enthusiast</p>
+          <p className="text-xl text-gray-600 dark:text-gray-400 mb-2 flex items-center justify-center gap-2">
+            Delivery Data Analyst at{" "}
+            <a
+              href="https://www.turing.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
+            >
+              Turing
+            </a>
+          </p>
+          
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed mb-8">
             Passionate about creating innovative solutions using cutting-edge technologies. Interested and working in
             the fields of Data Science, Machine Learning, Artificial Intelligence, Web Development, Cybersecurity and
             Embedded Systems.
           </p>
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
-            Download CV
-          </Button>
+          <a href="/Thribhuvan.pdf" download>
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
+              Download Resume
+            </Button>
+          </a>
         </section>
 
         {/* About Me Section */}
@@ -114,22 +185,24 @@ export default function Portfolio() {
           <h3 className="text-3xl font-bold mb-6 text-center">About Me</h3>
           <div className="space-y-4">
             <p>
-              Hello! I'm Thribhuvan, a passionate data analyst and machine learning enthusiast. My journey in the world
-              of technology began with a fascination for solving complex problems and has evolved into a deep love for
-              data-driven decision making and artificial intelligence.
+              Hello! I'm Thribhuvan, currently a Final Year Undergraduate majoring in Electronics and Communication
+              Engineering from Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram. A
+              passionate data analyst and machine learning enthusiast, my journey in the world of technology began with
+              a fascination for solving complex problems and has evolved into a deep love for data-driven decision
+              making and artificial intelligence.
             </p>
             <p>
-              With a strong foundation in Python, Java, and various data analysis tools, I've worked on projects ranging
-              from automated systems to complex machine learning models. I'm constantly exploring new technologies and
-              methodologies to stay at the forefront of this rapidly evolving field.
+              With a strong foundation in Python and data analysis tools, I've worked on projects ranging from automated
+              systems to complex machine learning models. I'm constantly exploring new technologies and methodologies to
+              stay at the forefront of this rapidly evolving field.
             </p>
             <p>
-              When I'm not coding or analyzing data, you can find me exploring the latest developments in AI,
-              contributing to open-source projects, or sharing my knowledge through tech blogs and community meetups.
+              When I'm not coding or analyzing data, you can find me exploring the latest developments in AI, or
+              learning about something I haven't yet.
             </p>
             <p>
               I'm always open to new opportunities and collaborations. If you're working on an exciting project or just
-              want to chat about data science and AI, feel free to reach out!
+              want to chat about anything, feel free to reach out!
             </p>
           </div>
         </section>
@@ -145,7 +218,7 @@ export default function Portfolio() {
         </section>
 
         {/* Skills Section */}
-        <section id = "skills" className="mb-20">
+        <section id="skills" className="mb-20">
           <h2 className="text-3xl font-bold mb-8 text-center">Skills & Technologies</h2>
           <div className="flex flex-wrap justify-center gap-4">
             {skills.map((skill) => (
