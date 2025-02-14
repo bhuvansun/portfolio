@@ -22,18 +22,21 @@ export const metadata: Metadata = {
 }
 
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+import Head from "next/head"
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
-      <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>{children}</body>
+      <Head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      </Head>
+      <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
+        {children}
+      </body>
     </html>
   )
 }
-
 
 
 import './globals.css'
