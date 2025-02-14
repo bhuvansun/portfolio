@@ -12,11 +12,15 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Thribhuvan Sunkavalli - Data Analyst & ML Enthusiast",
+  title: "Thribhuvan Sunkavalli - Data Analyst & AI Enthusiast",
   description:
-    "Portfolio of Thribhuvan Sunkavalli, a Data Analyst and Machine Learning enthusiast specializing in Python, Data Science, and AI.",
+    "Portfolio of Thribhuvan Sunkavalli, a Data Analyst and Artificial Intelligence enthusiast specializing in Python, Data Science, and AI.",
+  icons: {
+    icon: "/favicon.ico",
+  },
     generator: 'v0.dev'
 }
+
 
 export default function RootLayout({
   children,
