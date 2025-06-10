@@ -156,17 +156,7 @@ export default function Portfolio() {
           <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
             Thribhuvan Sunkavalli
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400 mb-2 flex items-center justify-center gap-2">
-            Delivery Data Analyst at{" "}
-            <a
-              href="https://www.turing.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
-            >
-              Turing
-            </a>
-          </p>
+
           
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed mb-8">
             Passionate about creating innovative solutions using cutting-edge technologies. Interested and working in
